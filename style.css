@@ -8,7 +8,8 @@
     font-family: 'Inconsolata', monospace;
     list-style: none;
     text-decoration: none;
-    background-color: black;
+    background-color:black; 
+    
     
   }
 
@@ -26,15 +27,15 @@
     align-items: center;
     justify-content: space-between ;
     padding: 33px 9%;
-    background:transparent
+  
   }
   
   .logo{
     font-size: 30px;
-    font-weight: 700;
     color: white;
-
+    font-weight: bold;
   }
+
   .navlist{
     display: flex;
 
@@ -61,7 +62,7 @@
     display: none;
   }
 
-  .hero{
+  .cabeçalho{
     height: 100%;
     width: 100%;
     min-width: 100vh;
@@ -72,17 +73,17 @@
     
   }
 
-  section{
+  .cabeçalho{
     padding: 0 19%;
 
   }
 
 
-  .hero-text {
+  .cabeçalho-text {
     width: 22svw;
   }
 
-  .hero-text h5{
+  .cabeçalho-text h5{
     font-size: 14px;
     font-weight: 400;
     color: white;
@@ -91,7 +92,7 @@
 
   }
 
-  .hero-text h1{
+  .cabeçalho-text h1{
     font-family: 'Inconsolata', monospace;
     font-size: 90px;
     line-height: 1;
@@ -100,18 +101,20 @@
 
   }
   
-  .hero-img > img{
+  .cabeçalho-img > img{
     width: 1000px;
+    display: flex;
+    justify-content: center;
   }
 
-  .hero-text h4{
+  .cabeçalho-text h4{
     font-size: 18px;
     font-weight: 600;
     color: white;
     margin-bottom: 10px;
   }
 
-  .hero-text p{
+  .cabeçalho-text p{
     color: white;
     font-size: 15px;
     line-height: 1.9;
